@@ -154,11 +154,13 @@ body {
 .wrapperTourList .tour h1 {
   color: white;
   margin-bottom: 5px;
+  font-family: "Coming Soon", cursive;
 }
 .wrapperTourList .tour .price {
   margin-bottom: 56px;
   text-transform: uppercase;
   color: white;
+  font-family: "Coming Soon", cursive;
 }
 .wrapperTourList .tour .learnMore {
   width: 133px;
@@ -177,9 +179,9 @@ body {
 .wrapperTourList .tour .learnMore p {
   color: white;
   font-size: 15px;
-  padding-top: 2px;
   text-transform: uppercase;
   position: absolute;
+  font-family: "Coming Soon", cursive;
 }
 
 .headerTourList {
@@ -296,6 +298,20 @@ nav .links a {
   nav .links a {
     padding: 5px;
     font-size: 13px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  nav .links {
+    margin-left: 43%;
+    width: 200px;
+  }
+  nav .links a {
+    padding: 5px;
+    font-size: 12px;
+  }
+  nav .logo {
+    margin-left: -50px;
+    position: absolute;
   }
 }
 .about {
@@ -798,6 +814,46 @@ footer img {
     margin-right: 13%;
   }
 }
+@media only screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .container .tripBox {
+    margin-bottom: 20px;
+  }
+  .booking .booking-wrapper #Booking {
+    font-size: 40px;
+  }
+  #CheckInLabel {
+    margin-left: -35px;
+  }
+  #CheckOutLabel {
+    margin-left: -35px;
+  }
+  #Adult {
+    margin-left: -20px;
+  }
+  #AdultDropbox {
+    margin-left: -50px;
+  }
+  #Children {
+    margin-left: 123px;
+  }
+  #Rooms {
+    margin-left: 288px;
+  }
+  .travel {
+    margin-left: 5% !important;
+  }
+  #foot {
+    font-size: 15px;
+  }
+  footer img {
+    margin-right: 0px !important;
+  }
+}
 .special {
   margin: 0 auto;
   width: 980px;
@@ -920,6 +976,15 @@ footer img {
     margin-left: -20px;
   }
 }
+@media only screen and (max-width: 650px) {
+  .specialWrapper {
+    width: 300px;
+    margin-left: 10%;
+  }
+  .specialBox {
+    margin-left: -20px;
+  }
+}
 .blogContainer {
   width: 76.1%;
   margin: 0 auto;
@@ -997,14 +1062,22 @@ footer img {
   line-height: 16px;
 }
 
-@media only screen and (max-width: 1700px) {
-  .blogContainer .blogGroup .blogImage img {
-    width: 600px;
-  }
-}
 @media only screen and (max-width: 1290px) {
   .blogContainer .blogGroup .blogImage img {
-    width: 370px;
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .blogContainer .blogGroup .blogImage img {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .blogContainer .blogGroup .blogImage img {
+    width: 300px;
+  }
+  .blogGroup-2 h5 {
+    width: 303px !important;
   }
 }
 .contactWrapper {
@@ -1101,8 +1174,9 @@ footer img {
   .contact {
     flex-direction: column;
     margin: 0 auto;
-    margin-left: 17%;
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .contactBox {
     position: absolute;
@@ -1110,6 +1184,23 @@ footer img {
   }
   .map {
     margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .contact {
+    margin-top: 100px;
+  }
+  .contactBox {
+    margin-left: 35%;
+  }
+  .map {
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin-left: 5%;
+  }
+  .contactForm {
+    width: 400px !important;
   }
 }
 

@@ -387,5 +387,64 @@ footer {
             margin-right: 13%;
         }
     }
+}
 
+@media only screen and (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+
+        .tripBox {
+            margin-bottom: 20px;
+        }
+    }
+
+    .booking {
+        .booking-wrapper {
+            #Booking {
+                font-size: 40px;
+            }
+        }
+    }
+
+    #CheckInLabel {
+        margin-left: -35px;
+    }
+
+    #CheckOutLabel {
+        margin-left: -35px;
+    }
+
+    #Adult {
+        margin-left: -20px;
+    }
+
+    #AdultDropbox {
+        margin-left: -50px;
+    }
+
+    #Children {
+        margin-left: 123px;
+    }
+
+
+    #Rooms {
+        margin-left: 288px;
+    }
+
+
+    .travel {
+        margin-left: 5% !important;
+    }
+
+    #foot {
+        font-size: 15px;
+    }
+
+    footer {
+        img {
+            margin-right: 0px !important;
+        }
+    }
 }

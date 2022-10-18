@@ -90,20 +90,35 @@
 
 }
 
-@media only screen and (max-width: 1700px) {
-
-    .blogContainer .blogGroup .blogImage {
-        img {
-            width: 600px;
-        }
-    }
-}
-
 @media only screen and (max-width: 1290px) {
 
 .blogContainer .blogGroup .blogImage {
         img {
-            width: 370px;
+            width: 750px;
         }
     }
 }
+
+@media only screen and (max-width: 980px) {
+
+    .blogContainer .blogGroup .blogImage {
+            img {
+                width: 500px;
+            }
+        }
+    }
+
+@media only screen and (max-width: 700px) {
+
+    .blogContainer .blogGroup .blogImage {
+            img {
+                width: 300px;
+            }
+        }
+
+        .blogGroup-2 {
+            h5 {
+                width: 303px !important;
+            }
+        }
+    }

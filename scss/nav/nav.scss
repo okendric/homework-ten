@@ -92,3 +92,22 @@ nav {
         }
     }
 }
+
+@media only screen and (max-width: 850px) {
+    nav {
+        .links {
+            margin-left: 43%;
+            width: 200px;
+
+            a {
+                padding: 5px;
+                font-size: 12px;
+            }
+        }
+
+        .logo {
+            margin-left: -50px;
+            position: absolute;
+        }
+    }
+}

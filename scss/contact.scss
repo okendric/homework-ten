@@ -108,8 +108,9 @@
     .contact {
         flex-direction: column;
         margin: 0 auto;
-        margin-left: 17%;
         margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contactBox {
@@ -120,5 +121,27 @@
 
     .map {
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        margin-top: 100px;
+    }
+
+    .contactBox {
+        margin-left: 35%;
+    }
+
+    .map {
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        margin-left: 5%
+    }
+
+    .contactForm {
+        width: 400px !important;
     }
 }

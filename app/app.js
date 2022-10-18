@@ -7,9 +7,10 @@ function initListeners() {
         let aID = e.currentTarget.id;
         let contentID = aID + "Content";
 
-        MODEL.updateView(contentID)
+        MODEL.updateView(contentID);
     });
 }
+
 
 $(document).ready(function() {
     initListeners();
