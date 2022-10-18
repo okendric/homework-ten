@@ -1,0 +1,1116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.headerTourPages {
+  width: 76.1%;
+  margin: 0 auto;
+  padding-top: 141px;
+  position: relative;
+}
+.headerTourPages h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  color: white;
+  z-index: 98;
+  margin-top: 53px;
+  margin-left: 35px;
+}
+.headerTourPages p {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  right: 0;
+  color: white;
+  z-index: 98;
+  margin-top: -30px;
+  margin-right: 5px;
+}
+.headerTourPages img {
+  width: 100%;
+  height: 413px;
+  object-fit: cover;
+  filter: brightness(0.55);
+}
+
+.threeImages {
+  width: 76.1%;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.threeImages img {
+  width: 298px;
+  height: 347px;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.wrapperTourPages {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 76.1%;
+  margin-top: -610px;
+}
+.wrapperTourPages .paragraph {
+  margin-bottom: 70px;
+}
+.wrapperTourPages .paragraph .title {
+  width: 160px;
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+.wrapperTourPages .paragraph .title p {
+  font-family: "Coming soon", cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.wrapperTourPages .paragraph .text {
+  font-family: "Coming soon", cursive;
+  font-size: 16px;
+  margin-top: 38px;
+  letter-spacing: 1.5px;
+}
+.wrapperTourPages .bookNow {
+  background-color: #79ADDC;
+  width: 133px;
+  height: 40px;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding-top: 11px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.wrapperTourPages .bookNow:hover {
+  background-color: #4b6e8b;
+}
+.wrapperTourPages .bookNow p {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1763px) {
+  .wrapperTourPages {
+    margin-top: -125px;
+  }
+}
+@media only screen and (max-width: 1181px) {
+  .wrapperTourPages {
+    margin-top: 131px;
+  }
+  .headerTourPages p {
+    font-size: 15px;
+  }
+}
+.wrapperTourList {
+  margin: 0 auto;
+  display: flex;
+  min-height: 500px;
+  width: 818px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 190px;
+}
+.wrapperTourList .tour {
+  width: 236px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 55px;
+  font-family: "Coming Soon";
+}
+.wrapperTourList .tour img {
+  width: 100%;
+  height: 304px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+.wrapperTourList .tour .ontop {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapperTourList .tour h1 {
+  color: white;
+  margin-bottom: 5px;
+}
+.wrapperTourList .tour .price {
+  margin-bottom: 56px;
+  text-transform: uppercase;
+  color: white;
+}
+.wrapperTourList .tour .learnMore {
+  width: 133px;
+  text-align: center;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #79addc;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.wrapperTourList .tour .learnMore:hover {
+  background-color: #4b6e8b;
+}
+.wrapperTourList .tour .learnMore p {
+  color: white;
+  font-size: 15px;
+  padding-top: 2px;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.headerTourList {
+  width: 76.1%;
+  height: 200px;
+  padding-top: 142px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.headerTourList .text {
+  display: flex;
+  justify-content: center;
+}
+.headerTourList .text h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  padding-top: 60px;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  z-index: 98;
+}
+.headerTourList img {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+@media only screen and (max-width: 855px) {
+  .wrapperTourList {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .wrapperTourList {
+    width: 236px;
+  }
+}
+nav {
+  position: fixed;
+  height: 92.5px;
+  width: 51.2%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 38px;
+  border: 2px solid white;
+  margin-top: 14px;
+  position: absolute;
+}
+nav .logo p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.88px;
+  margin-top: 17px;
+  margin-left: -3px;
+  position: absolute;
+}
+nav .links {
+  margin-left: 50%;
+  width: 50%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #79ADDC;
+  margin-top: 30px;
+}
+nav .links a {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.darkNav {
+  border-bottom: 2px solid black;
+}
+.darkNav .logo {
+  border: 2px solid black;
+}
+.darkNav .logo p {
+  color: black;
+}
+.darkNav .links a {
+  color: black;
+}
+
+@media only screen and (max-width: 1500px) {
+  nav .links {
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  nav .links {
+    margin-left: 50%;
+    width: 30%;
+  }
+  nav .links a {
+    padding: 5px;
+    font-size: 13px;
+  }
+}
+.about {
+  width: 76.4%;
+  padding-top: 181px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .title {
+  font-family: "Coming Soon", cursive;
+  width: 171px;
+  font-size: 22px;
+  border-bottom: 2px solid black;
+  height: 65px;
+  width: 210px;
+}
+.about p {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  width: 85%;
+  padding-top: 40px;
+}
+
+.client-quotes {
+  margin-top: 95px;
+  width: 76.4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client-title {
+  font-family: "Coming Soon", cursive;
+  border-bottom: 2px solid black;
+  width: 310px;
+  height: 45px;
+}
+
+.wrapperAbout {
+  margin-top: 37px;
+  max-width: 76.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapperAbout .person-1 {
+  position: relative;
+  max-width: 676px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.wrapperAbout .person-1 .image-1 {
+  width: 260px;
+  height: 150px;
+}
+.wrapperAbout .person-1 .image-1 img {
+  width: 260px;
+  height: 150px;
+}
+.wrapperAbout .person-1 .text-1 {
+  margin-left: 21px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  width: 400px;
+}
+.wrapperAbout .person-1 .author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+  color: #bfd8ee;
+}
+
+.spacer {
+  height: 179px;
+}
+
+@media only screen and (max-width: 800px) {
+  .person-1 {
+    flex-wrap: wrap;
+  }
+  .text-1 {
+    padding-bottom: 20px;
+  }
+  .image-1 {
+    margin-bottom: 20px;
+  }
+}
+.tripBox {
+  width: 236px;
+  height: 304px;
+  padding: 5px;
+}
+.tripBox img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(70%);
+}
+.tripBox .elements h1 {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Proxima";
+  font-size: 30px;
+  margin-top: -250px;
+}
+.tripBox .elements h3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-family: "Proxima";
+  font-size: 19px;
+  margin-top: 30px;
+}
+.tripBox .elements .learnMore {
+  height: 40px;
+  width: 133px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 1px;
+  padding-top: 11px;
+  margin-top: 60px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tripBox .elements .learnMore:hover {
+  background-color: #4b6e8b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-containerHome {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+.splash img {
+  width: 100%;
+  height: 500px;
+  filter: brightness(70%);
+  z-index: 99;
+}
+
+.home .hero {
+  position: relative;
+}
+.home .hero h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "Coming Soon", cursive;
+  text-align: center;
+  margin-top: -338px;
+}
+.home .hero p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 36%;
+  margin: 0 auto;
+}
+.home .hero .read-more {
+  height: 40px;
+  cursor: pointer;
+  width: 122px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  margin-top: 50px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.home .hero .read-more:hover {
+  background-color: #4b6e8b;
+}
+
+.promo-trips {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 95px;
+}
+.promo-trips .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: -50px;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.promo-trips .container .tripBox .elements h1 {
+  font-family: "Coming Soon", cursive;
+}
+.promo-trips .container .tripBox .elements h3 {
+  font-family: "Coming Soon", cursive;
+}
+
+.booking {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+  height: 1000px;
+}
+.booking .booking-wrapper {
+  width: 65%;
+  margin: 0 auto;
+}
+.booking .booking-wrapper #Booking {
+  color: black;
+  position: absolute;
+  font-size: 60px;
+  margin-left: 1%;
+  margin-top: 50px;
+  font-family: "Coming Soon", cursive;
+}
+
+#Name {
+  height: 58px;
+  width: 41%;
+  font-size: 18px;
+  margin: 2%;
+  margin-top: 150px;
+  border-color: #79ADDC;
+}
+
+#Email {
+  height: 58px;
+  width: 52.5%;
+  font-size: 18px;
+  margin: 0%;
+  margin-top: 150px;
+  border-color: #79ADDC;
+}
+
+#Country {
+  height: 58px;
+  width: 41%;
+  font-size: 18px;
+  margin: 2%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#Hotel {
+  height: 58px;
+  width: 52.5%;
+  font-size: 18px;
+  margin: 0%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#CheckInLabel {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  width: 100px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+#CheckIn {
+  height: 58px;
+  width: 80%;
+  font-size: 18px;
+  margin-left: 18%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#CheckOutLabel {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  width: 100px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+#CheckOut {
+  height: 58px;
+  width: 80%;
+  font-size: 18px;
+  margin-left: 18%;
+  margin-top: 20px;
+  border-color: #79ADDC;
+}
+
+#Adult {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  width: 100px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+#AdultDropbox {
+  width: 103px;
+  height: 58px;
+  margin-left: 18%;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-color: #79ADDC;
+}
+
+#Children {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 320px;
+  width: 100px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+#ChildDropbox {
+  width: 103px;
+  height: 58px;
+  margin-left: 10%;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 30px;
+  position: absolute;
+  border-color: #79ADDC;
+}
+
+#Rooms {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 600px;
+  margin-top: -42px;
+  width: 100px;
+  position: absolute;
+}
+
+#RoomDropbox {
+  width: 103px;
+  height: 58px;
+  margin-left: 24%;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 30px;
+  position: absolute;
+  border-color: #79ADDC;
+}
+
+#Textbox {
+  height: 192px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 130px;
+  position: absolute;
+  border-color: #79ADDC;
+  outline: 0px;
+}
+
+.submit {
+  height: 70px;
+  width: 42%;
+  cursor: pointer;
+  background-color: #79ADDC;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 275px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-color: #79ADDC;
+}
+.submit:hover {
+  background-color: #4b6e8b;
+}
+
+footer {
+  height: 70px;
+  background-color: #79ADDC;
+  padding-top: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+footer img {
+  position: absolute;
+  right: 0;
+  margin-top: -55px;
+  margin-right: 25%;
+}
+
+.travel {
+  margin-left: 25%;
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+}
+.travel p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.88px;
+  margin-top: 20px;
+}
+
+#foot {
+  color: white;
+  text-align: center;
+  margin-top: -30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1706px) {
+  #AdultDropbox {
+    margin-left: 10%;
+  }
+  #Children {
+    margin-left: 250px;
+  }
+  #Rooms {
+    margin-left: 500px;
+  }
+  #RoomDropbox {
+    margin-left: 24%;
+  }
+}
+@media only screen and (max-width: 1550px) {
+  #Adult {
+    margin-top: 5px;
+  }
+  #AdultDropbox {
+    margin-left: 15px;
+  }
+  #Children {
+    margin-top: -82px;
+    margin-left: 168px;
+  }
+  #ChildDropbox {
+    margin-left: 50px;
+  }
+  #Rooms {
+    margin-top: -82px;
+    margin-left: 325px;
+  }
+  #RoomDropbox {
+    margin-left: 208px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #foot {
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-top: -57px;
+    padding-top: 17px;
+  }
+  footer img {
+    margin-top: -80px;
+  }
+  footer .travel {
+    margin-left: 15%;
+  }
+  footer img {
+    margin-right: 13%;
+  }
+}
+.special {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 197px;
+}
+.special .titleSpecial {
+  width: 199px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  top: 148px;
+  height: 40px;
+}
+.special .titleSpecial h1 {
+  font-family: "Coming Soon", cursive;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 21px;
+  letter-spacing: 1px;
+  width: 290px;
+  height: 40px;
+  bottom: -18px;
+}
+
+.specialWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin-bottom: 25px;
+}
+.specialWrapper .specialImage {
+  width: 199px;
+  height: 287px;
+  margin-top: 35.5px;
+}
+.specialWrapper .specialImage img {
+  width: 199px;
+  height: 287px;
+  object-fit: cover;
+}
+.specialWrapper .specialBox {
+  height: 287px;
+  margin-top: 35.5px;
+  position: relative;
+  width: 315px;
+}
+.specialWrapper .specialBox .titleSpecial-2 {
+  width: 196px;
+  border-bottom: 2px solid black;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 20.5px;
+}
+.specialWrapper .specialBox .titleSpecial-2 h1 {
+  font-family: "Coming Soon", cursive;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 20.5px;
+  letter-spacing: 1px;
+  width: 290px;
+  height: 40px;
+  bottom: -18px;
+}
+.specialWrapper .specialParagraph {
+  width: 290px;
+  height: 131px;
+}
+.specialWrapper .specialParagraph p {
+  width: 290px;
+  height: 131px;
+  margin-left: 20.5px;
+  margin-top: 21.5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 1.4px;
+}
+.specialWrapper .discount p {
+  color: #ff8442;
+  font-family: "Coming Soon", cursive;
+  position: absolute;
+  top: 0px;
+  right: -65px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.specialWrapper .learnMore {
+  width: 133px;
+  text-align: center;
+  height: 40px;
+  padding: 10px 30px;
+  background-color: #79addc;
+  border-radius: 30px;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 21px;
+  justify-content: center;
+  cursor: pointer;
+}
+.specialWrapper .learnMore:hover {
+  background-color: #4b6e8b;
+}
+.specialWrapper .learnMore p {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  font-family: "Coming Soon", cursive;
+}
+
+.specialSpace {
+  height: 75px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .specialWrapper {
+    width: 300px;
+    margin-left: 20%;
+  }
+  .specialBox {
+    margin-left: -20px;
+  }
+}
+.blogContainer {
+  width: 76.1%;
+  margin: 0 auto;
+  padding-top: 228px;
+}
+.blogContainer .blogBox {
+  border-bottom: 2px solid black;
+  width: 106px;
+  height: 40px;
+  position: absolute;
+  top: 148px;
+}
+.blogContainer .blogBox h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Coming Soon", cursive;
+}
+.blogContainer .blogDate {
+  text-align: center;
+  background-color: #79addc;
+  min-width: 60px;
+  margin-bottom: 20px;
+  height: 60px;
+  padding-top: 5px;
+  color: white;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blogContainer .blogDate h1 {
+  font-size: 25px;
+  margin: 0 auto;
+  width: 38px;
+  height: 28px;
+}
+.blogContainer .blogDate h2 {
+  font-size: 14px;
+  margin: 0 auto;
+  width: 28px;
+  height: 15px;
+  text-transform: uppercase;
+}
+.blogContainer .blogGroup {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -8.5px;
+}
+.blogContainer .blogGroup .blogImage {
+  width: 900px;
+  height: 239px;
+}
+.blogContainer .blogGroup .blogImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blogContainer .blogGroup-2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 100px;
+}
+.blogContainer .blogGroup-2 h4 {
+  margin-top: 20px;
+  font-size: 13px;
+  width: 245px;
+  height: 22px;
+}
+.blogContainer .blogGroup-2 h5 {
+  font-size: 11.5px;
+  color: #79addc;
+  width: 380px;
+  height: 64px;
+  margin-top: -5px;
+  line-height: 16px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .blogContainer .blogGroup .blogImage img {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1290px) {
+  .blogContainer .blogGroup .blogImage img {
+    width: 370px;
+  }
+}
+.contactWrapper {
+  width: 984px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 148px;
+}
+
+.contactBox {
+  border-bottom: 2px solid black;
+  width: 170px;
+  height: 37px;
+  position: absolute;
+}
+.contactBox h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Coming Soon", cursive;
+}
+
+.contact {
+  margin-top: 87px;
+  display: flex;
+}
+.contact .map {
+  width: 400px;
+  margin-right: 50px;
+}
+.contact .map .map-image {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+}
+.contact .map .map-address {
+  width: 100%;
+  height: 161px;
+  letter-spacing: 1.5px;
+}
+.contact .map .map-address p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.contact .contactForm {
+  width: 529px;
+  height: 522px;
+}
+.contact .contactForm .textFields {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  padding-left: 21px;
+  background-color: #f5f5f5;
+  border: none;
+}
+.contact .contactForm .longText {
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  padding-left: 21px;
+  padding-bottom: 130px;
+  background-color: #f5f5f5;
+  border: none;
+}
+.contact .contactForm .contactSubmit {
+  width: 168px;
+  text-align: center;
+  height: 60px;
+  background-color: #79addc;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+.contact .contactForm .contactSubmit:hover {
+  background-color: #4b6e8b;
+}
+.contact .contactForm .contactSubmit p {
+  color: white;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.contactSpace {
+  height: 100px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .contact {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 17%;
+    margin-top: 100px;
+  }
+  .contactBox {
+    position: absolute;
+    margin-left: 43%;
+  }
+  .map {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
